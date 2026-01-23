@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import "./UploadPage.css";
 
 export default function UploadPage() {
 
@@ -37,7 +38,7 @@ export default function UploadPage() {
             
             </header>
 
-            <main>
+            <main className="page">
                 <h1>
                     Welcome back User!
                 </h1>
