@@ -14,8 +14,24 @@ export default function UploadPage() {
                 </h1>
                 <div>Upload video</div>
                 <div>
-                    <button>Upload</button>
+                    <label>Upload
+                        <input type="file" accept="video/*" />
+                    </label>
                 </div>
+
+
+
+                <div>
+                    <span>{File.name}</span>
+
+                    <div>
+                        <button>Remove</button>
+                        <button>Generate</button>
+                    </div>
+                </div>
+
+
+                
             </main>
         </div>
     );
