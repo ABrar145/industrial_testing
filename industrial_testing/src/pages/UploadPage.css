@@ -1,0 +1,60 @@
+.page {
+  min-height: 100vh;
+  background: #f6eef4;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+main > div {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+button {
+  background: #2f2f2f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  margin: 6px 6px 6px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+main > h2 {
+  margin-top: 20px;
+}
+
+
+main > div > div {
+  background: #e0e0e0;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
