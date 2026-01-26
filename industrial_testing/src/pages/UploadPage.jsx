@@ -10,7 +10,7 @@ export default function UploadPage() {
     function filePic() {
         fileInputRef.current?.click();
     }
-
+    
 
 
     function handleUpload(e) {
